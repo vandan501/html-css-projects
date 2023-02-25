@@ -1,0 +1,57 @@
+*{
+
+}
+
+.container{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+        background-image: repeating-linear-gradient(to top right,rgb(255,193,80),rgb(238,75,95),rgb(101,76,203))
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 10px solid white;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 600px;
+    height: 300px;
+    margin-top: 60px;
+    border: 2px solid red;
+}
+.smallcircle{
+    width: 15px;
+    position: relative;
+    left: 72px;
+    margin-bottom: 71px;    
+    height: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+}
+.largecircle{
+    margin-right: 10px;
+    width: 50px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 8px solid white;
+    /* background-color: black; */
+    border-radius: 100%;
+}

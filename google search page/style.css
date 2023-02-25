@@ -1,0 +1,111 @@
+body{
+  background-color:  rgb(237, 255, 244);
+  font-family: 'Roboto', sans-serif;
+}
+header nav{
+    /* padding: 20px;; */
+    margin-right: 40px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 80px;
+    font-size: 20px;
+    font-weight: 400px;
+    list-style: none;
+    /* text-decoration: none; */
+    align-items: center;
+}
+
+#more_apps{
+    width: 40px;
+    height: 40px;
+
+}
+
+#user_pic{
+    width: 50px;
+    height: 70px;
+    border-radius: 70px;
+
+}
+#search{
+    width: 30px;
+    height: 30px;
+}
+h1{
+    font-size: 95px;
+text-align: center;
+}
+.search{
+
+    display: flex;
+    margin: 0 auto;
+align-items: center;   
+    width: 650px;
+    padding: 20px;
+    height: 50px;
+    border: 1px solid black;
+    gap: 20px;
+    border-radius: 60px;
+}
+input{
+    width: 500px;
+    font-size: 18px;
+    height: 50px;
+}
+#mic{
+width: 30px;
+height: 30px;
+}
+#cam{
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 65px;
+}
+button{
+    width: 180px;
+ height: 40px;   
+ font-size: 20px;   
+padding: 5px;
+}
+
+.lang{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    font-size: 22px;
+}
+
+footer{
+    padding: 30px 30px 30px 30px;
+    margin: 10px;
+    margin-top: 50px;
+    border: 1px solid black;
+    
+}
+.left-footer{
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+    font-size: 18px;
+    list-style: none;
+}
+.right-footer{
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+    font-size: 18px;
+    list-style: none;
+
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
